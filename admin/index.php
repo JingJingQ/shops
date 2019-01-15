@@ -22,7 +22,7 @@
   <h2><span class="icon-user"></span>管理员管理</h2>
   <ul style="display:block">
     <li><a href="admin/add.php" target="right"><span class="icon-caret-right"></span>添加管理员</a></li>
-    <li><a href="admin/select.php" target="right"><span class="icon-caret-right"></span>查看管理员</a></li>
+    <li><a href="admin/select1.php" target="right"><span class="icon-caret-right"></span>查看管理员</a></li>
 
   </ul>   
   <h2><span class="icon-pencil-square-o"></span>导航管理</h2>

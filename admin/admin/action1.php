@@ -82,6 +82,14 @@ switch ($type){
     case "edit":
 
         break;
-
+//        管理员状态的切换
+    case "status":
+        $id=$_GET["id"];
+        $status=$_GET["status"];
+        $sql="UPDATE admin SET status={$status} WHERE id={$id}";
+        $db->query($sql);
+        if($db->affected_rows>0){
+            header("location:select1.php");
+        }
 
 }
